@@ -1,0 +1,62 @@
+[
+    {
+      "id": "1669937058740",
+      "name": "Renato Alexandrini",
+      "email": "re.alexandrini@gmail.com",
+      "password": "pass987654321"
+    },
+    {
+        "id": "1669937071727",
+        "name": "Leonardo Correa de Lima",
+        "email": "leo_lima54@gmail.com",
+        "password": "pass986532741"
+      },
+      {
+        "id": "1669937191899",
+        "name": "Flavia Regini",
+        "email": "regini1990@gmail.com",
+        "password": "pass852963741"
+      },
+      {
+        "id": "1669937201556",
+        "name": "Diogo Saulo",
+        "email": "di_saulo789@gmail.com",
+        "password": "pass123789456"
+      },
+      {
+        "id": "1669937215444",
+        "name": "Alessandra Nascimento",
+        "email": "nasciAle123@gmail.com",
+        "password": "pass684215973"
+      },
+      {
+        "id": "1669937232748",
+        "name": "Rubens Silva",
+        "email": "rubens_silva456@gmail.com",
+        "password": "pass753914862"
+      },
+      {
+        "id": "1669937330352",
+        "name": "Patrícia Caldeira",
+        "email": "patricia_c852@gmail.com",
+        "password": "pass132798465"
+      },
+      {
+        "id": "1669937339352",
+        "name": "Gilberto Conceição",
+        "email": "gil_com6sao@gmail.com",
+        "password": "pass963541728"
+      },
+      {
+        "id": "1669937354378",
+        "name": "Tainá Amaral",
+        "email": "taamaral300@gmail.com",
+        "password": "pass781296354"
+      },
+      {
+        "id": "1669937370723",
+        "name": "Antônio Amorin",
+        "email": "tonhomorim@gmail.com",
+        "password": "pass513794682"
+      }
+]

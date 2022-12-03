@@ -1,0 +1,68 @@
+[
+    {
+        "id":"1669944120444",
+        "name":"Istanbul",
+        "price": 193.00 ,
+        "image_url":"https://ibb.co/qW0jhn8"
+    },
+    {
+        "id":"1669944133547",
+        "name":"Fresco",
+        "price":317.00 ,
+        "image_url":"https://ibb.co/ZYmvksQ"
+    },
+    {
+        "id":"1669944141537",
+        "name":"The Thing: The Boardgame",
+        "price":278.58 ,
+        "image_url":"https://ibb.co/RpYkN7D"
+    },
+    {
+        "id":"1669948037685",
+        "name":"Cyclades",
+        "price": 292.81 ,
+        "image_url":"https://ibb.co/WWQMGsT"
+    },
+    {
+        "id":"1669944552421",
+        "name":"Ticket To Ride",
+        "price": 398.90,
+        "image_url":"https://ibb.co/94m51yr"
+    },
+    {
+        "id":"1669948163290",
+        "name":"Zombicide: Black Plague",
+        "price": 799.90,
+        "image_url":"https://ibb.co/wQ3kr3L"
+    },
+    {
+        "id":"1669946107538",
+        "name":"Terraforming Mars",
+        "price": 327.58 ,
+        "image_url":"https://ibb.co/fXf47sS"
+    },
+    {
+        "id":"1669946114161",
+        "name":"Viticulture",
+        "price": 379.00 ,
+        "image_url":"https://ibb.co/0Zkx3K7"
+    },
+    {
+        "id":"1669946121114",
+        "name":"The Manhattan Project",
+        "price":162.26 ,
+        "image_url":"https://ibb.co/TWkMg1V"
+    },
+    {
+        "id":"1669946707649",
+        "name":"Tapestry",
+        "price": 599.90 ,
+        "image_url":"https://ibb.co/b53HVfT"
+    },
+    {
+        "id":"1669946716906",
+        "name":"Wingspan",
+        "price": 425.90 ,
+        "image_url":"https://ibb.co/kBxsJ7Y"
+    }
+]
