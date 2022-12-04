@@ -1,12 +1,19 @@
-import express from "express"
-import cors from 'cors'
+import {app} from './app'
+import {postUserAdd} from './endpoints/postUsersAdd'
+import {getAllUsers} from './endpoints/getAllUsers'
+import {postProductAdd} from './endpoints/postProductAdd'
+import {getAllProducts} from './endpoints/getAllProducts'
+import { postPurchaseAdd } from './endpoints/postPurchaseAdd'
+import {getUserPurchases} from './endpoints/getUserPurchases'
 
+app.post('/users', postUserAdd)
 
-export const app = express()
-app.use(express.json())
-app.use(cors())
+app.get('/users', getAllUsers)
 
+app.post('/products', postProductAdd )
 
-app.listen(3003, () => {
-    console.log("Server is running in http://localhost:3003");
-});
+app.get('/products', getAllProducts)
+
+app.post('/purchases', postPurchaseAdd)
+
+app.get('/users/:user_id/purchases', getUserPurchases)
