@@ -24,9 +24,13 @@
 
 ### Tecnologia Utilizada:
 * Typescript
-<img src="https://user-images.githubusercontent.com/102265620/205476749-786b35ae-cb86-44ab-bff9-4bd8833284b7.png">
+
+<img src="https://user-images.githubusercontent.com/102265620/205476749-786b35ae-cb86-44ab-bff9-4bd8833284b7.png" width="50px">
+
 * SQL
-<img src="https://user-images.githubusercontent.com/102265620/205476861-68520703-8f8b-4dc9-9336-fc7d8b4a0764.jpg">
+
+<img src="https://user-images.githubusercontent.com/102265620/205476861-68520703-8f8b-4dc9-9336-fc7d8b4a0764.jpg" width="50px">
+
 ### Link da Documentação via Postman
 https://documenter.getpostman.com/view/24755055/2s8YzMXR12
 
