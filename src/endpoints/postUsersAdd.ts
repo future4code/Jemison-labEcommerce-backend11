@@ -1,12 +1,12 @@
 import { Request, Response } from "express";
 import { connection } from "../dataBase/connection";
-import { User} from '../types'
-import {userAdd} from '../functions/userAdd'
+import { User } from '../types'
+import { userAdd } from '../functions/userAdd'
 
 export async function postUserAdd(req: Request, res: Response): Promise<void> {
 
     let errorCode = 500
-  
+
     try {
         const { name, email, password }: User = req.body
 
@@ -21,21 +21,21 @@ export async function postUserAdd(req: Request, res: Response): Promise<void> {
         if (!password) {
             errorCode = 422
             throw new Error('Senha do usuário faltando')
-        } 
+        }
         const usersArray = await connection.raw(`
         SELECT * FROM labecommerce_users
         `)
-        const emailExists = usersArray[0].find((user:User) => {
+        const emailExists = usersArray[0].find((user: User) => {
             return user.email === email
         })
 
         if (emailExists) {
             errorCode = 409
             throw new Error('Email já cadastrado ateriormente')
-            } else {
-               userAdd(name, email, password)
-            }
-             
+        } else {
+            userAdd(name, email, password)
+        }
+
         res.status(200).send('Usuário criado com sucesso')
 
     } catch (error: any) {
