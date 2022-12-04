@@ -1,6 +1,6 @@
 
 
-# labEcommerce-backend
+# LabEcommerce-backend
 
 ### Projeto realizado por Renato Alexandrini - Turma Jemison
 
