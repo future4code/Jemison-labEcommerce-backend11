@@ -37,6 +37,6 @@
 https://documenter.getpostman.com/view/24755055/2s8YzMXR12
 
 ### Link do Deploy através do Render
-
+https://projeto-labecommerce-backend-turma.onrender.com
 
 
